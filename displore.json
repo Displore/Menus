@@ -1,0 +1,9 @@
+{
+    "name": "Menus",
+    "requirement": "displore/menus",
+    "provides": {
+        "serviceprovider": "Displore\\Menus\\MenusServiceProvider",
+        "facade": "Menu",
+        "facade-namespace": "Displore\\Menus\\Facades\\Menu"
+    }
+}

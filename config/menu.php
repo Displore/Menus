@@ -2,7 +2,7 @@
 
 return [
 
-    /**
+    /*
      * For each menu, you can create a similar array with links in it.
      */
     'main' => [

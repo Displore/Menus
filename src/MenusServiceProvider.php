@@ -8,8 +8,6 @@ class MenusServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
-     *
-     * @return void
      */
     public function boot()
     {
@@ -17,14 +15,12 @@ class MenusServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../config/menu.php' => config_path('displore/menu.php'),
         ], 'displore.menu.config');
-        
+
         $this->mergeConfigFrom(__DIR__.'/../config/menu.php', 'displore.menu');
     }
 
     /**
      * Register any package services.
-     *
-     * @return void
      */
     public function register()
     {

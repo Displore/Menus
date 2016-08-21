@@ -1,6 +1,6 @@
 <?php
 
-namespace Displore\Core\Facades;
+namespace Displore\Menus\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
